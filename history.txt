@@ -1,0 +1,391 @@
+    1  cd AirPlatform/
+    2  cat PlatformID.txt 
+    3  it clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT
+    4  ping www.google.it
+    5  git clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT
+    6  sudo python setup.py install
+    7  cd ..
+    8  cd AirPlatform/
+    9  sudo python StudentTest.py 
+   10  sudo nano /boot/config.txt
+   11  sudo cp cmdline.txt cmdline_backup.txt
+   12  cd /boot/
+   13  sudo cp cmdline.txt cmdline_backup.txt
+   14  sudo nano cmdline.txt
+   15  sudo systemctl stop serial-getty@ttyS0.service
+   16  sudo systemctl disable serial-getty@ttyS0.service
+   17  sudo systemctl enable serial-getty@ttyAMA0.service
+   18  sudo pip install pynmea2
+   19  cd AirPlatform/
+   20  sudo python trovaArduino.py 
+   21  sudo python StudentTest.py 
+   22  cd AirPlatform/
+   23  sudo python dammi_info_gps.py 
+   24  [A
+   25  sudo python dammi_info_gps.py 
+   26  udo nano /boot/config.txt
+   27  sudo nano /boot/config.txt
+   28  cd AirPlatform/
+   29  sudo python StudentTest.py 
+   30  cd AirPlatform/
+   31  sudo python dammi_info_gps.py 
+   32  stty -F /dev/ttyAMA0 9600
+   33  sudo stty -F /dev/ttyAMA0 9600
+   34  sudo python dammi_info_gps.py 
+   35  sudo cat /dev/ttyAMA0
+   36  cd AirPlatform/
+   37  sudo python dammi_info_gps.py 
+   38  sudo python gpsok.py 
+   39  sudo python dammi_info_gps.py 
+   40  sudo python gpsok.py 
+   41  cd AirPlatform/
+   42  sudo python StudentTest.py 
+   43  cd AirPlatform/
+   44  sudo python StudentTest.py 
+   45  c AirPlatform/
+   46  cd AirPlatform/
+   47  sudo python StudentTest.py 
+   48  cd AirPlatform/
+   49  sudo python Calibra.py 
+   50  sudo python StudentTest.py 
+   51  cd AirPlatform/
+   52  cd AirPlatform
+   53  sudo python StudentTest.py 
+   54  4
+   55  cd AirPlatform/
+   56  cd AirPlatform/
+   57  sudo python dammi_info_gps.py 
+   58  [A
+   59  sudo python dammi_info_gps.py 
+   60  sudo python Calibra.py 
+   61  ifconfig
+   62  cd /etc
+   63  sudo nano rsyslog.conf 
+   64  cd AirPlatform/
+   65  sudo python StudentTest.py 
+   66  cd AirPlatform/
+   67  sudo python StudentTest.py 
+   68  cd AirPlatform/
+   69  sudo python StudentTest.py 
+   70  cd AirPlatform/
+   71  sudo python dammi_info_gps.py 
+   72  sudo python StudentTest.py 
+   73  ifconfig
+   74  sudo python StudentTest.py 
+   75  cd AirPlatform/
+   76  sudo python StudentTest.py 
+   77  cd AirPlatform/
+   78  sudo python StudentTest.py 
+   79  cd AirPlatform/
+   80  sudo python StudentTest.py 
+   81  ps -ax
+   82  cd AirPlatform/
+   83  sudo python testManager.py 
+   84  cd /etc
+   85  nano rc.local 
+   86  sudo nano rc.local 
+   87  ps -ax
+   88  cd AirPlatform/
+   89  sudo python
+   90  sudo python StudentTest.py 
+   91  cd  AirPlatform/
+   92  sudo python StudentTest.py 
+   93  sudo python dammi_info_gps.py
+   94  sudo python StudentTest.py 
+   95  sudo python Calibra.py 
+   96  sudo python StudentTest.py 
+   97  cd  AirPlatform/
+   98  sudo python StudentTest.py 
+   99  sudo python Calibra.py 
+  100  sudo python StudentTest.py 
+  101  ps -ax
+  102  cd  AirPlatform/
+  103  sudo python StudentTest.py 
+  104  cd  AirPlatform/
+  105  sudo python StudentTest.py 
+  106  cd  AirPlatform/
+  107  sudo python3 Platform_graph.py 
+  108  sudo apt-get install python-pandas 
+  109  sudo python3 Platform_graph.py 
+  110  sudo apt-get install python3-pandas 
+  111  sudo python3 Platform_graph.py 
+  112  cd..
+  113  cd ..
+  114  cd  AirPlatform/
+  115  sudo python StudentTest.py 
+  116  cd  AirPlatform/
+  117  sudo python StudentTest.py 
+  118  sudo python Calibra.py 
+  119  sudo python3 Platform_graph.py 
+  120  cd  AirPlatform/
+  121  sudo python StudentTest.py 
+  122  sudo python Calibra.py 
+  123  2
+  124  sudo python Calibra.py 
+  125  sudo python StudentTest.py 
+  126  cd AirPlatform/
+  127  sudo python run_graph_rt.py 
+  128  sudo python3 run_graph_rt.py 
+  129  cd AirPlatform/
+  130  sudo python StudentTest.py 
+  131  sudo python3 run_graph_rt.py 
+  132  cd AirPlatform/
+  133  sudo python3 run_graph_rt.py 
+  134  cd AirPlatform/
+  135  sudo python StudentTest.py 
+  136  cd AirPlatform/
+  137  sudo python3 run_graph_rt.py 
+  138  cd AIr
+  139  cd AirPlatform/
+  140  sudo python3 run_graph_rt.py 
+  141  cd AIr
+  142  cd AirPlatform/
+  143  sudo python3 run_graph_rt.py 
+  144  cd AirPlatform/
+  145  sudo python StudentTest.py 
+  146  cd AirPlatform/
+  147  sudo python3 run_graph_rt.py 
+  148  cd AirPlatform/
+  149  sudo python3 run_graph_rt.py 
+  150  cd AirPlatform/
+  151  sudo python StudentTest.py 
+  152  ifconfig
+  153  cd AirPlatform/
+  154  sudo python StudentTest.py 
+  155  cd AirPlatform/
+  156  sudo python StudentTest.py 
+  157  ifconfig
+  158  cd AirPlatform/
+  159  sudo python Calibra.py 
+  160  cd AirPlatform/
+  161  sudo python StudentTest.py 
+  162  cd AirPlatform/
+  163  sudo python StudentTest.py 
+  164  sudo python trovaArduino.py 
+  165  cd AirPlatform/
+  166  sudo python StudentTest.py 
+  167  sudo python Calibra.py 
+  168  sudo python StudentTest.py 
+  169  sudo python Calibra.py 
+  170  cd AirPlatform/
+  171  sudo python StudentTest.py 
+  172  cd AirPlatform/
+  173  sudo python Calibra.py 
+  174  cd AirPlatform/
+  175  sudo python Calibra.py 
+  176  cd AirPlatform/
+  177  sudo python StudentTest.py 
+  178  ps -ax
+  179  cd Desktop/
+  180  cd ..
+  181  cd AirPlatform/
+  182  ps -ax
+  183  sudo python testManager.py 
+  184  ifconfig
+  185  cd AirPlatform/
+  186  sudo python aqp_sensors_test.py 
+  187  sudo python3 aqp_sensors_test.py 
+  188  cd AIr
+  189  cd AirPlatform/
+  190  sudo python testManager.py 
+  191  cd Air
+  192  cd AirPlatform/
+  193  sudo python dammi_info_gps.py 
+  194  sudo python gpsok.py 
+  195  cd AirPlatform/
+  196  sudo python run_gps_test.py 
+  197  cd AirPlatform/
+  198  sudo python Correzione.py 
+  199  cd AirPlatform/
+  200  sudo python test_gps.py 
+  201  sudo python dammi_info_gps.py 
+  202  sudo python test_gps.py 
+  203  sudo python dammi_info_gps.py 
+  204  sudo python test_gps.py 
+  205  sudo python dammi_info_gps.py 
+  206  sudo python test_gps.py 
+  207  sudo python dammi_info_gps.py 
+  208  sudo python test_gps.py 
+  209  sudo python dammi_info_gps.py 
+  210  sudo python test_gps.py 
+  211  sudo python test_gps.py 
+  212  sudo python testTemperatura.py 
+  213  sudo python testTemperatura2.py 
+  214  sudo python testTemperatura.py 
+  215  sudo python testTemperatura2.py 
+  216  sudo python testTemperatura.py 
+  217  sudo python testTemperatura2.py 
+  218  sudo python aqiMax.py 
+  219  sudo python run_gps_test.py 
+  220  cd AirPlatform/
+  221  sudo python StudentTest.py 
+  222  sudo python dammi_info_gps.py
+  223  sudo python Correzione.py 
+  224  cd AirPlatform/
+  225  sudo python Correzione.py 
+  226  cd AirPlatform/
+  227  sudo python Aqp_correction.py 
+  228  sudo python3 Aqp_correction.py 
+  229  cd AirPlatform/
+  230  sudo python3 Aqp_correction.py 
+  231  exitù
+  232  exit
+  233  ifconfig
+  234  cd AirPlatform/
+  235  sudo python3 Aqp_correction.py 
+  236  ifconfig
+  237  sudo python3 Aqp_correction.py 
+  238  ps -ax
+  239  DF 'K
+  240  D
+  241  df -k
+  242  sudo apt-get purge minecraft-pi
+  243  df -k
+  244  sudo apt-get purge wolfram-engine
+  245  df -k
+  246  df -ksudo apt-get autoremove
+  247  sudo apt-get autoremove
+  248  df -k
+  249  cd AirPlatform/
+  250  sudo pip3 install adafruit-circuitpython-dht
+  251  sudo apt-get install libgpiod2
+  252  sudo python3 testTemperatura4.py 
+  253  sudo python3 testTemperatura.py 
+  254  sudo pip3 install Adafruit_DHT
+  255  sudo python3 testTemperatura.py 
+  256  sudo python testManager.py 
+  257  cd AirPlatform/
+  258  sudo python3 testTemperatura.py 
+  259  cd AirPlatform/
+  260  cp testManager.py testManager_cet.py 
+  261  sudo python testManager.py 
+  262  ps -ax
+  263  CD aIR
+  264  cd AirPlatform/
+  265  sudo python sendWebServer.py 
+  266  ps -ax
+  267  cd AirPlatform/
+  268  sudo python tele.py 
+  269  cd AirPlatform/
+  270  sudo python controllo.py 
+  271  cd AirPlatform/
+  272  ls rc.local 
+  273  cat rc.local 
+  274  sudo cp rc.local /etc/rc.local 
+  275  ls -la /etc/rc.local 
+  276  sudo reboot
+  277  ps -ax
+  278  cd AirPlatform/
+  279  sudo python tele.py 
+  280  wget https//aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt
+  281  wget https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt
+  282  wget -O https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt
+  283  wget https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt -O
+  284  wget https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt 
+  285  wget https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt -O V0CO2.txt
+  286  wget https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt -O /home/pi/AirPlatform/V0CO2.txt
+  287  cd AirPlatform/
+  288  wget https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt -O
+  289  wget https://aqp:aqp654321@aqp.gedatech.it/testaqp/dataserver/V0CO2.txt -O V0CO2.txt
+  290  cd /media/pi/KINGSTON/
+  291  ls 
+  292  cd AQP51
+  293  cd /etc
+  294  ls rc.local 
+  295  cp rc.local /home/pi/AirPlatform/
+  296  cd AirPlatform/
+  297  sudo python all_sensors_test.py 
+  298  [A
+  299  sudo python all_sensors_test.py 
+  300  cd AirPlatform/
+  301  sudo python all_sensors_test.py 
+  302  ps -ax
+  303  cd AirPlatform/
+  304  sudo python2 testTemperatura.py 
+  305  sudo python3 testTemperatura.py 
+  306  sudo python2 testTemperatura.py 
+  307  sudo python3 testTemperatura.py 
+  308  pgrep libgpiod_pulsein for example
+  309  grep libgpiod_pulsein for example
+  310  ps -ax pgrep libgpiod_pulsein for example
+  311  ps -ax
+  312  ps -ax ! pgrep libgpiod_pulsein 
+  313  ps -ax ! grep libgpiod_pulsein 
+  314  ps -ax | grep libgpiod_pulsein 
+  315  sudo kill -9 3086
+  316  ps -ax | grep libgpiod_pulsein 
+  317  ps -ax | grep 4257
+  318  sudo kill -9 4257
+  319  ps -ax | grep libgpiod_pulsein 
+  320  sudo kill -9 4332
+  321  ps -ax | grep libgpiod_pulsein 
+  322  sudo kill -9 4453
+  323  cd AirPlatform/
+  324  sudo python all_sensors_test.py 
+  325  ifconfig
+  326  sudo python all_sensors_test.py 
+  327  ifconfig
+  328  cd Desktop/
+  329  ls
+  330  rn AQP\ Test\ All 
+  331  rn 'AQP Test All' 
+  332  rm 'AQP Test All' 
+  333  cp acpRT.desktop acpRT2.desktop 
+  334  cd AirPlatform/
+  335  sudo python all_sensors_test.py 
+  336  ifconfig
+  337  cd AIr
+  338  cd AirPlatform/
+  339  sudo python dammi_grafico.py 1
+  340  python dammi_grafico.py 1
+  341  sudo python testTemperatura4.py 
+  342  sudo python3 testTemperatura4.py 
+  343  ps -ax 
+  344  ps -ax libgpiod_pulsein
+  345  ps -ax | grep libgpiod_pulsein
+  346  sudo kill -9 2911
+  347  ps -ax | grep libgpiod_pulsein
+  348  sudo kill -9 4459
+  349  ps -ax | grep libgpiod_pulsein
+  350  sudo kill -9 4516
+  351  ps -ax | grep libgpiod_pulsein
+  352  sudo kill -9 4602
+  353  ps -ax | grep libgpiod_pulsein
+  354  sudo kill -9 4714
+  355  ps -ax | grep libgpiod_pulsein
+  356  sudo kill -9 4836
+  357  ps -ax | grep libgpiod_pulsein
+  358  sudo python killTemp.py 
+  359  ps -ax | grep libgpiod_pulsein
+  360  sudo python killTemp.py 
+  361  etc
+  362  cd /etc
+  363  ls
+  364  sudo rm anydesk/
+  365  sudo rm -r anydesk/
+  366  cd /etc
+  367  rm -r anydesk/
+  368  sudo rm -r anydesk/
+  369  cd /pi
+  370  cd /home
+  371  cd pi/
+  372  cd AirPlatform/
+  373  sudo python all_sensors_test.py 
+  374  cd Aitr
+  375  cd AirPlatform/
+  376  sudo python trovaArduino.py 
+  377  cd AirPlatform/
+  378  sudo python all_sensors_test.py 
+  379  sudo rm -r /etc/anydesk
+  380  ifconfig
+  381  sudo rm -r/etc/anydesk
+  382  sudo rm -r /etc/anydesk
+  383  sudo reboot
+  384  sudo nano /boot/config.txt
+  385  sudo apt remove lxplug-ptbatt -y
+  386  sudo apt-get purge anydesk -y
+  387  cd /home/pi/AirPlatform/
+  388  tail -f log.txt
+  389  services
+  390  history
+  391  history > history.txt
