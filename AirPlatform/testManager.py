@@ -1,3 +1,4 @@
+import binascii
 import datetime as dt
 import json
 import string
@@ -9,9 +10,15 @@ import commands
 import requests
 import RPi.GPIO as GPIO
 import serial
+import smbus
 
 LED1 = 36
 LED2 = 38
+
+
+I2C_CHANNEL = 1
+DEVICE_ADDRESS = 0x41
+READ_CO2_COMMAND(0x34, 2)
 
 precedente_lat_grad = 41.827753
 precedente_long_grad = 12.6750968333
@@ -31,6 +38,16 @@ def floatERR(stringa):
     except:
         ritorno = None
     return ritorno
+
+
+def get_co2():
+    bus = SMBus(I2C_CHANNEL)
+    data = bytearray(
+        bus.read_i2c_block_data(
+            DEVICE_ADDRESS, READ_CO2_COMMAND[0], READ_CO2_COMMAND[1]
+        )
+    )
+    return int(binascii.hexlify(data), 16)
 
 
 GPIO.setmode(GPIO.BOARD)
@@ -139,6 +156,10 @@ while 1:
         NO2 = None
         NH3 = None
         CO = None
+
+    # Override CO2 value from new sensor
+    CO2 = get_co2()
+
     GPIO.output(LED1, 1)
     x = commands.getoutput("sudo python aqiMax.py")
     print(x)
