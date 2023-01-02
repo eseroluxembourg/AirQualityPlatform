@@ -7,7 +7,7 @@ READ_CO2 = (0x34, 2)
 
 
 def read_i2c_block(register, num_bytes):
-    bus = SMBus(1)
+    bus = SMBus(I2C_CHANNEL)
     return int.from_bytes(
         bus.read_i2c_block_data(DEVICE_ADDRESS, register, num_bytes), "big"
     )
