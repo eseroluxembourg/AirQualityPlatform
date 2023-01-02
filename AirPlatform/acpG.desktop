@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1.10C
+Name=AQP DownLoad & Graph
+Comment=AQP DownLoad & Graph
+Categories=Application;Development;
+Exec=sudo python3 /home/pi/AirPlatform/Platform_graph.py
+Icon=/home/pi/AirPlatform/Ico.ico
+Terminal=false
+Type=Application
+Name[it_IT]=AQP DownLoad & Graph

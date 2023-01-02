@@ -1,0 +1,17 @@
+FAT of the AQP51
+ 
+MAC Address b8:27:eb:05:fb:78
+ 
+
+2022-02-15 19:00:17 - Temperature sensor Test NOT Passed
+ 
+CO=4.94006744941ppm ,NH3=0.862186186604ppm ,NO2=0.144915589815ppm ,CO2=2137.99013514ppm
+2022-02-15 19:00:17 - CO NH3 NO2 CO2 sensors Test Passed
+ 
+PM2.5: 4.1ppm, PM10: 15.1ppm
+2022-02-15 19:00:20 - PM2.5, PM10 sensors Test Passed
+ 
+LAT= 42.0025163333, LONG=12.6805386667,  Last Known Point
+2022-02-15 19:00:21 GPS sensor Test Passed
+ 
+2022-02-15 19:00:26 Internet Connection Test Passed

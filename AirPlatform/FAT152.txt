@@ -1,0 +1,17 @@
+FAT of the AQP152
+ 
+MAC Address b8:27:eb:75:51:b3
+ 
+Temperature=14.9*C, Humidity=98.8%
+2022-03-05 00:04:00 - Temperature sensor Test Passed
+ 
+CO=2.05056701984ppm ,NH3=0.376347991678ppm ,NO2=0.161399344394ppm ,CO2=444.187007224ppm
+2022-03-05 00:04:00 - CO NH3 NO2 CO2 sensors Test Passed
+ 
+PM2.5: 30.3ppm, PM10: 79.8ppm
+2022-03-05 00:04:04 - PM2.5, PM10 sensors Test Passed
+ 
+LAT= 42.0025163333, LONG=12.6805386667,  Last Known Point
+2022-03-05 00:04:05 GPS sensor Test Passed
+ 
+2022-03-05 00:04:10 Internet Connection Test Passed

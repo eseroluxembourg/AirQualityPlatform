@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1.10C
+Name=Air Quality Platform
+Comment=Air Quality Platform
+Categories=Application;Development;
+Exec=sudo python /home/pi/AirPlatform/StudentTest.py
+Icon=/home/pi/AirPlatform/AQPlatformcon.ico
+Terminal=true
+Type=Application

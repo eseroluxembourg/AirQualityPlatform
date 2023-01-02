@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1.10C
+Name=AQP RT
+Comment=Air Quality Platform
+Categories=Application;Development;
+Exec=sudo python3 /home/pi/AirPlatform/run_graph_rt.py
+Icon=/home/pi/AirPlatform/RT.ico
+Terminal=false
+Type=Application
+Name[it_IT]=AQP Test
